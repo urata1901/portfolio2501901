@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- タイトル（上に表示。固定しない） -->
+  <header class="header">
+    <div class="site-title">
+      <span class="title-main">PORTFOLIO</span>
+    </div>
+  </header>
+
+  <!-- 目次（常に上部固定） -->
+  <nav class="nav-sticky" aria-label="目次">
+    <a href="#profile">profile</a>
+    <a href="#works">works</a>
+    <a href="#skill">skills</a>
+  </nav>
+
+  <main class="page">
+    <!-- PROFILE -->
+    <section id="profile" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">PROFILE</h2>
+
+        <div class="profile-card reveal">
+          <div class="profile-list">
+            <div><span>名前</span><span>：</span><span>浦田一冴</span></div>
+            <div><span>在学中</span><span>：</span><span>麻生情報ビジネス専門学校</span></div>
+            <div><span>趣味</span><span>：</span><span>スマホゲーム、サイクリング</span></div>
+          </div>
+
+          <div class="profile-body">
+            設計やフロントエンドの分野に興味があり、特にUI/UXには強いこだわりを持っています。<br>
+            感覚的にわかりやすいボタン配置や、使っていて違和感を覚えない色遣いなどを意識しながら制作することで、<br>
+            ユーザーが本来の目的に集中できるようなサイトやアプリつくりを心掛けています。<br>
+            中学・高校は東福岡に在学しており、約12年間博多駅周辺に通ってきました。<br>
+            そのため、博多〜東比恵周辺の道には自信があります。
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+    <section id="works" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">WORKS</h2>
+
+        <div class="works-list">
+          <!-- 成果物カード（全体がリンク） -->
+          <a
+            href="https://aso2301022.backdrop.jp/"
+            class="work-card reveal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="work-image">
+              <img src="img/収支管理アプリ画像.jpg" alt="収支管理アプリの画面" />
+            </div>
+
+            <div class="work-text">
+              <div class="work-title">収支管理サイト</div>
+              <div class="work-description">
+                去年、アルバイトのしすぎで扶養を超えてしまった友人が、今年こそは扶養を越さないことを目指すために、一緒に作ったサイトです。機能を加えすぎると肝心な部分が見えずらくなるので、よりコンパクトなUI/UXを心掛けました。
+              </div>
+             
+            </div>
+          </a>
+
+          <a
+            href="https://urata1901.github.io/weapon_memo/"
+            class="work-card reveal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="work-image">
+              <img src="img/武器メモアプリ.jpg" alt="武器メモアプリの画像" />
+            </div>
+
+            <div class="work-text">
+              <div class="work-title">装備メモサイト</div>
+              <div class="work-description">
+                前述の通り、スマホゲームをよくプレイするのですが、キャラなどに着ける装備やアイテムなどをメモするのに適したレイアウトのメモアプリなどが無かったので作成しました。
+              </div>
+              
+            </div>
+          </a>
+
+          <a
+            href="https://www.figma.com/design/HOPAQPsJULUvAvANHuJ5cM/%E5%BE%8C%E6%9C%9F%E3%83%81%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA?t=DKLpuGkWcl0rcHzv-0"
+            class="work-card reveal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="work-image">
+              <img src="img/しぇあかる.jpg" alt="3年後期チーム開発のfigma" />
+            </div>
+
+            <div class="work-text">
+              <div class="work-title">3年後期チーム開発のFigma</div>
+              <div class="work-description">
+                3年後期のチーム開発では、気軽に共有できるカレンダーサイトを作成し、私は主に設計を担当しました。2年次のチーム開発ではあまりコミュニケーションが取れておらず、機能を加えすぎた結果開発が追い付かなかったので、反省活かし、最低限の機能を班員と話し合いながら作成しました。
+              </div>
+              <div class="work-meta">
+              
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLs -->
+    <section id="skill" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">SKILLs</h2>
+
+        <div class="skill-grid reveal">
+          <div class="skill-box">
+            <div class="skill-title">フロントエンド</div>
+            <div class="skill-image">
+              <img src="img/フロント.jpg" alt="フロントエンド">
+            </div>
+            <ul class="skill-list">
+              <li>HTML / CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">バックエンド</div>
+            <div class="skill-image">
+              <img src="img/バックエンド.jpg" alt="バックエンド">
+            </div>
+            <ul class="skill-list">
+              <li>PHP</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">ツール</div>
+            <div class="skill-image">
+              <img src="img/ツール.jpg" alt="ツール">
+            </div>
+            <ul class="skill-list">
+              <li>VS Code</li>
+              <li>GitHub</li>
+              <li>Eclipse</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">その他</div>
+            <ul class="skill-list">
+              <li>簡単な画像編集</li>
+              <li>簡単な動画編集</li>
+            </ul>
+            <div class="skill-note">制作の見た目や伝わりやすさも重視します。</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Topへ戻るボタン -->
+  <button id="toTop" class="to-top" aria-label="ページ上部へ戻る">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
